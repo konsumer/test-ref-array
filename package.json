@@ -1,0 +1,17 @@
+{
+  "name": "test-ref-array",
+  "version": "0.0.0",
+  "scripts": {
+    "test": "node test.js",
+    "compile": "npx -y cmake-js compile",
+    "postinstall": "npm run compile"
+  },
+  "keywords": [],
+  "author": "David Konsumer <konsumer@jetboystudio.com> (https://konsumer.js.org/)",
+  "license": "MIT",
+  "dependencies": {
+    "ref-array-di": "^1.2.2",
+    "ref-array-napi": "^1.2.2",
+    "ref-napi": "^3.0.3"
+  }
+}
